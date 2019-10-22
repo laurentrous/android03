@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 Toast.makeText(MainActivity.this, "Congratulations " + firstname.getText() + " " + lastname.getText(), Toast.LENGTH_SHORT).show();
-                // Code here executes on main thread after user presses button
+
             }
         });
     }
